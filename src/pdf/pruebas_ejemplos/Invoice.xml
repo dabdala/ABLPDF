@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+<HeaderInfo>
+<CompanyName>ABC Company</CompanyName>
+<ImagePath></ImagePath>
+<Disclaimer>*Seller represents that with respect to the production of the aricles and/or services covered by this Invoice, it has fully complied with the provisions of the Fair Labor Standards Act of 1938, as amended.*</Disclaimer>
+<ComInvNo>CI002586</ComInvNo>
+<NumCartons> </NumCartons>
+<TrailerNo>135</TrailerNo>
+<SealNo>1354</SealNo>
+<Weight></Weight>
+<ContainerLength>123</ContainerLength>
+<BookingNo>4658</BookingNo>
+<ShippingNo>15354</ShippingNo>
+<Territory>COSTA RICA</Territory>
+<ShippedVia>FEDEX</ShippedVia>
+<DateShipped>11/06/2003</DateShipped>
+<FederalID>999999999</FederalID>
+<From><Address>99 Roundabout Road Suite 100</Address><City>Springfield</City><State>FL</State><Zip>32256</Zip><Country></Country><Phone>(123) 555-1234</Phone><Fax>(123) 555-2345</Fax></From>
+<To><ShipTo>DEF Company</ShipTo><Address>P.O. BOX 99 </Address><City>Springfield</City><State>FL</State><Zip>32257</Zip><Country>COSTA RICA</Country><Phone>555-123-1212</Phone><Fax>555-123-1213</Fax></To>
+<DocStamp>
+<p>THE ABOVE PARTS ARE FOR THE ASSEMBLY OF</p>
+<p>___________ TRIGGER SPRAYERS.</p>
+<p></p>
+<p>WE HEREBY CERTIFY THE ABOVE PARTS</p>
+<p>BEING SENT TO COSTA RICA FOR ASSEMBLY</p>
+<p>PURPOSES ONLY AND ARE OF NO COMMERCIAL</p>
+<p>VALUE.  WE CERTIFY THE ABOVE TO BE TRUE</p>
+<p>AND CORRECT.</p>
+<p></p>
+<p>________________________________________</p>
+</DocStamp>
+</HeaderInfo>
+<DetailInfo>
+<PackageType>BOX</PackageType>
+<WeightType>LB</WeightType>
+<TotalPages>3</TotalPages>
+</DetailInfo>
+<Sheets>
+<Page>
+<PageNo>1</PageNo>
+<Item>
+<Quantity>52999</Quantity>
+<Code>100-001</Code>
+<Cnts>530</Cnts>
+<Description>2 CAV - RING-HOLDER</Description>
+<Weight>10</Weight>
+<TotalWeight>5300</TotalWeight>
+<UnitPrice>.18162</UnitPrice>
+<Amount>96.2586</Amount>
+</Item>
+<Item>
+<Quantity>-3245</Quantity>
+<Code>100-001</Code>
+<Cnts>-32</Cnts>
+<Description>2 CAV - RING-HOLDER</Description>
+<Weight>10</Weight>
+<TotalWeight>-320</TotalWeight>
+<UnitPrice>.18162</UnitPrice>
+<Amount>-5.81184</Amount>
+</Item>
+<Item>
+<Quantity>7850</Quantity>
+<Code>100-001</Code>
+<Cnts>79</Cnts>
+<Description>2 CAV - RING-HOLDER</Description>
+<Weight>10</Weight>
+<TotalWeight>790</TotalWeight>
+<UnitPrice>.18162</UnitPrice>
+<Amount>14.34798</Amount>
+</Item>
+<Item>
+<Quantity>220</Quantity>
+<Code>100-001</Code>
+<Cnts>2</Cnts>
+<Description>2 CAV - RING-HOLDER</Description>
+<Weight>10</Weight>
+<TotalWeight>20</TotalWeight>
+<UnitPrice>.18162</UnitPrice>
+<Amount>.36324</Amount>
+</Item>
+<Item>
+<Quantity>-100</Quantity>
+<Code>100-001</Code>
+<Cnts>-1</Cnts>
+<Description>2 CAV - RING-HOLDER</Description>
+<Weight>10</Weight>
+<TotalWeight>-10</TotalWeight>
+<UnitPrice>.18162</UnitPrice>
+<Amount>-.18162</Amount>
+</Item>
+<Item>
+<Quantity>600</Quantity>
+<Code>100-020</Code>
+<Cnts>12</Cnts>
+<Description>Towel Rack Short</Description>
+<Weight>5</Weight>
+<TotalWeight>60</TotalWeight>
+<UnitPrice>0</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>2112</Quantity>
+<Code>200-020</Code>
+<Cnts>42</Cnts>
+<Description>SHIELD HOUSING-LARGE</Description>
+<Weight>5</Weight>
+<TotalWeight>210</TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>500</Quantity>
+<Code>234</Code>
+<Cnts> </Cnts>
+<Description>asdhfahsdfhashdgf</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>15</Quantity>
+<Code>999=MRS</Code>
+<Cnts> </Cnts>
+<Description>short flange insert</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>0</Quantity>
+<Code>A100-1000</Code>
+<Cnts> </Cnts>
+<Description>Vacumn Hose" 1/4</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>0</Quantity>
+<Code>A100-1000</Code>
+<Cnts> </Cnts>
+<Description>Vacumn Hose" 1/4</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>120</Quantity>
+<Code>A100-520</Code>
+<Cnts>2</Cnts>
+<Description>4 OZ BOTTLE W/ GREEN CAP/HOT FOIL</Description>
+<Weight>12.5</Weight>
+<TotalWeight>25</TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>-405</Quantity>
+<Code>abs-0100</Code>
+<Cnts>-2</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>-1.5</Amount>
+</Item>
+<Item>
+<Quantity>291.78</Quantity>
+<Code>abs-0100</Code>
+<Cnts>1</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>.75</Amount>
+</Item>
+<Item>
+<Quantity>57</Quantity>
+<Code>abs-0100</Code>
+<Cnts>0</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>327.06175</Quantity>
+<Code>abs-0100</Code>
+<Cnts>1</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>.75</Amount>
+</Item>
+<Item>
+<Quantity>15</Quantity>
+<Code>abs-0100</Code>
+<Cnts>0</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>0</Quantity>
+<Code>abs-0100</Code>
+<Cnts>0</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>-22.14849</Quantity>
+<Code>abs-0100</Code>
+<Cnts>0</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>1</Quantity>
+<Code>abs-0100</Code>
+<Cnts>0</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>-69.17813</Quantity>
+<Code>abs-0100</Code>
+<Cnts>0</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>0</Quantity>
+<Code>abs-0100</Code>
+<Cnts>0</Cnts>
+<Description>NATURAL - ABS</Description>
+<Weight>0</Weight>
+<TotalWeight>0</TotalWeight>
+<UnitPrice>.75</UnitPrice>
+<Amount>0</Amount>
+</Item>
+<Item>
+<Quantity>33.133</Quantity>
+<Code>ABS-0200</Code>
+<Cnts> </Cnts>
+<Description>DK.BLUE ABS CC</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice>1</UnitPrice>
+<Amount> </Amount>
+</Item>
+</Page>
+<Page>
+<PageNo>2</PageNo>
+<Item>
+<Quantity>290.08</Quantity>
+<Code>ABS-0200</Code>
+<Cnts> </Cnts>
+<Description>DK.BLUE ABS CC</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice>1</UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>23571</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>16</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>17</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>18</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>2</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>24</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>5</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>26</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>-27</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>28</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>75</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>3</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>105</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>4</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>7</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>8</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>10287</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>131</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>-95</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>35</Quantity>
+<Code>ABS-200</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>500</Quantity>
+<Code>ABS-201</Code>
+<Cnts> </Cnts>
+<Description>tracker tracked-1</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>53100</Quantity>
+<Code>AES-01</Code>
+<Cnts> </Cnts>
+<Description>LONG JONS</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+</Page>
+<Page>
+<PageNo>3</PageNo>
+<Item>
+<Quantity>25480</Quantity>
+<Code>C-FOOTBALL</Code>
+<Cnts> </Cnts>
+<Description>small football - no logo</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>-162.55571</Quantity>
+<Code>COLORANT-WHITE</Code>
+<Cnts> </Cnts>
+<Description>white concentrate long description</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>1.3986</Quantity>
+<Code>COLORANT-WHITE</Code>
+<Cnts> </Cnts>
+<Description>white concentrate long description</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>1</Quantity>
+<Code>JOE</Code>
+<Cnts> </Cnts>
+<Description>joe item code</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>50</Quantity>
+<Code>P-PLF</Code>
+<Cnts> </Cnts>
+<Description>paint</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>1</Quantity>
+<Code>THERESAII</Code>
+<Cnts> </Cnts>
+<Description>test</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity>-5500</Quantity>
+<Code>YELLOW-INK-PEN</Code>
+<Cnts> </Cnts>
+<Description>yellow ball point pen</Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity> </Quantity>
+<Code> </Code>
+<Cnts> </Cnts>
+<Description> </Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity> </Quantity>
+<Code> </Code>
+<Cnts> </Cnts>
+<Description> </Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice> </UnitPrice>
+<Amount> </Amount>
+</Item>
+<Item>
+<Quantity> </Quantity>
+<Code> </Code>
+<Cnts> </Cnts>
+<Description> </Description>
+<Weight> </Weight>
+<TotalWeight> </TotalWeight>
+<UnitPrice>TOTAL</UnitPrice>
+<Amount> </Amount>
+</Item>
+</Page>
+</Sheets>
+</Root>

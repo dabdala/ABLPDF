@@ -1,0 +1,84 @@
+
+                                                                                     
+                                                                                                INVOICE NUMBER: I 000946591
+
+
+                                                                                               DUE DATE: 2002/03/12                
+                                                                                                   PAGE:   1                       
+                                                                                                                                  
+                                                                                               CURRENCY: US dollar           
+
+  CUSTOMER ACCOUNT NUMBER:  9999999-99999                                                           GST: 123456789                 
+              DESCRIPTION:  Campbell, Gordon                                                        PST: 1234567890                
+
+
+                                                                                         
+           PRO-SYS Consultants Ltd
+           7220 Montana Road 
+           Richmond  BC                                                               TYPE OF TRANSACTIONS
+           V7C 4K3                                                                       C = Credit Note
+           Canada                                                                        D = Debit Note
+                                                                                         I = Invoice
+                                                                                         P = Payment
+                                                                                         X = Payment Adjustment
+
+
+
+
+DUE DATE   TRANSACTION  PROCESSED        DESCRIPTION                                                          AMOUNT          NET
+
+
+2004/03/24 I 000946591  2002/03/02       Purchase of PDFinclude Template Module                                50.00        50.00
+2004/03/24 I 000946591  2002/03/02       One Service Request                                                   50.00        50.00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                Total       50.00
+
+
+
+
+
+
+
+
+
+
+
