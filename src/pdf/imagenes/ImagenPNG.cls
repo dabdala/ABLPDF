@@ -105,19 +105,19 @@ CLASS pdf.imagenes.ImagenPNG INHERITS Imagen:
       UNDO, THROW NEW PDFException('El entrelazado no está soportado').
 
     minPosA = minPosA + 8.
-    //Scan chunks looking for palette, transparency and image data
+    /* Scan chunks looking for palette, transparency and image data */
     REPEAT:
       COPY-LOB FROM FILE cchArchivo STARTING AT minPosA FOR 8 TO mmpIInfo.
       minInt = GET-LONG(mmpIInfo,1).
       mchQue = GET-STRING(mmpIInfo,5,4).
       minPosA = minPosA + 8. 
       IF mchQue  EQ 'PLTE' THEN DO:
-        //Read palette
+        /* Read palette */
         SET-SIZE(cmpPaleta) = minInt.
         COPY-LOB FROM FILE cchArchivo STARTING AT minPosA FOR minInt TO cmpPaleta.
       END.
       ELSE IF mchQue EQ 'tRNS' THEN DO:
-        //Read transparency info
+        /* Read transparency info */
         IF minInt GT 12 THEN
           SET-SIZE(mmpIInfo) = minInt.
         COPY-LOB FROM FILE cchArchivo STARTING AT minPosA FOR minInt TO mmpIInfo. 
@@ -135,7 +135,7 @@ CLASS pdf.imagenes.ImagenPNG INHERITS Imagen:
         END.
       END.
       ELSE IF mchQue EQ 'IDAT' THEN DO:
-        //Read image data block
+        /* Read image data block */
         IF GET-SIZE(cmpData) GT 0 THEN DO ON ERROR UNDO, THROW:
           COPY-LOB cmpData TO mmpTemp.
           SET-SIZE(cmpData) = 0.

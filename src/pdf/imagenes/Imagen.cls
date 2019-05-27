@@ -138,7 +138,7 @@ CLASS pdf.imagenes.Imagen IMPLEMENTS pdf.IObjetoPDF ABSTRACT:
     cobDocumento:cobDestino:agregar(mmpRes).
 
     cobDocumento:cobDestino:agregar({&pdfSKIP} + {&pdfSKIP} + "endstream" + {&pdfSKIP} + "endobj" + {&pdfSKIP}).
-    //generar objetos asociados
+    /* generar objetos asociados */
     generarObjetosRelacionados().
 
     FINALLY:
