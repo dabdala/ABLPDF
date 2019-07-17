@@ -47,8 +47,18 @@ CLASS pdf.recursos.ObjetoX INHERITS pdf.recursos.RecursoExistente:
     /* preservar para su reemplazo */
     minPagina = INDEX(clcContenido,'~/ColorSpace').
     IF minPagina GT 0 THEN DO:
-      mchLen = TRIM(SUBSTR(clcContenido,minPagina,64)).
-      cobEspacioDeColores = cobDocumentoExistente:agregarRecurso(INT(ENTRY(2, mchLen, " ")),INT(ENTRY(3, mchLen, " ")),"ColorSpace",ipinObjeto,ipinGeneracion,'').
+      /* el espacio de colores puede tener varias formas:
+      /ColorSpace /DeviceRGB
+      /ColorSpace <</CS1 10 0 R>>
+      /ColorSpace 10 0 R
+      /ColorSpace [definición del espacio de colores]
+      solo me interesa si hace referencia a un objeto.
+      */
+      mchLen = TRIM(SUBSTR(clcContenido,minPagina + 11,INDEX(clcContenido,'>>') - 1)).
+      IF SUBSTRING(mchLen,1,1) EQ '<' THEN DO:
+        mchLen = TRIM(SUBSTRING(mchLen,INDEX('~/',mchLen))).
+        cobEspacioDeColores = cobDocumentoExistente:agregarRecurso(INT(ENTRY(2, mchLen, " ")),minPagina,"ColorSpace",ipinObjeto,ipinGeneracion,'').
+      END.
     END.  
     FINALLY:
       cobPDF:restaurarPos().
@@ -64,9 +74,14 @@ CLASS pdf.recursos.ObjetoX INHERITS pdf.recursos.RecursoExistente:
     /* reemplazar las referencias a objetos */
     IF VALID-OBJECT(cobEspacioDeColores) THEN DO:
       cobEspacioDeColores:asignarObjetoPDF().
+      /* hay dos posibles formas de especificar ColorSpace como una referencia
+      /ColorSpace <</CS10 10 0 R>>
+      /ColorSpace 10 0 R
+      la forma segura es buscar la referencia, como sea que se haya especificado
+       */
       clcContenido = REPLACE(clcContenido,
-                         "~/ColorSpace " + STRING(cobEspacioDeColores:cinOriginal[1]) + ' ' + STRING(cobEspacioDeColores:cinOriginal[2]),
-                         "~/ColorSpace " + STRING(cobEspacioDeColores:cinObjetoPDF) + ' 0').
+                         " " + STRING(cobEspacioDeColores:cinOriginal[1]) + ' ' + STRING(cobEspacioDeColores:cinOriginal[2]) + ' R',
+                         " " + STRING(cobEspacioDeColores:cinObjetoPDF) + ' 0 R').
     END.
     SUPER:generarContenido().
   END METHOD.
